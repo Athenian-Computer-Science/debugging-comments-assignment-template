@@ -1,25 +1,22 @@
-# Master CT Assignment Template 
-
-Use this master template to create CT Assignment Templates.
+# Debugging and Comments Assignment
 
 ## Problem Description
-Problem description goes here. 
+Write a program that prompts the user for their name and grade (in that order).
+Then print a response that reads "Hello (name)! I can't wait to be in (grade) too!" where 
+* Note: (name) and (grade) are the values the user entered.
 
-* Steps to take go here. 
+Use comments to make notes about errors you encountered and edits you made.
+If you did it perfectly the first time, cause some errors intentionally and then add comments about fixing them.
+Turn in on GitHub and add a screenshot to your portfolio!
 
 ## Example
 ```
-Value to increment? 5
-10
+Name: Anna
+Grade: 10th
+
+Output: Hello Anna! I can't wait to be in 10th grade too!
 ```
 
 ## Suggested Approach
-1) Suggestions go here
-
-## Hints
-* Use the section under `if __name__ == '__main__': ` to change arguments and check your work.
-* When you are happy with your code, use `input()` to prompt the user for a value.
-* Add code to [my_code.py](./my_code.py) to make it do the desired thing.
-* Run your code with: `python my_code.py` or the run button
-* Run your tests with: `pytest`
-
+1. Be careful to direct the user and choose your print statement carefully. For example, if the user enters `10` and you expected `10th`, the response will refer to `10 grade` which doesn't make sense. How you format it is up to you as long as it works, both grammatically and programmatically. You can avoid issues by including formatting directions in your input prompt. 
+2. There is no test code for this assignment. Run youor program a few times to be sure you are satisfied, then commit and push.
