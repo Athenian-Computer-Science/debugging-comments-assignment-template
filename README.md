@@ -12,14 +12,14 @@ Turn in on GitHub and add a screenshot to your portfolio!
 ## Example
 ```
 Name: Anna
-Grade: 10th
+Grade: 10
 
 Output: Hello Anna! I can't wait to be in 10th grade too!
 ```
 
 ## Suggested Approach
-1. Be careful to direct the user and choose your print statement carefully. For example, if the user enters `10` and you expected `10th`, the response will refer to `10 grade` which doesn't make sense. How you format it is up to you as long as it works, both grammatically and programmatically. You can avoid issues by including formatting directions in your input prompt. 
-2. There is no test code for this assignment. Run youor program a few times to be sure you are satisfied, then commit and push.
+1. Be careful to format your print statement carefully, so the format of the output matches the format above.
+2. Run your program a few times to be sure you are satisfied, then commit and push. Then, check the feedback in the Pull Requests on GitHub. Be sure you pass both the accuracy and the style tests.
 
 
 

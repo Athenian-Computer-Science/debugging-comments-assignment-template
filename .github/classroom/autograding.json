@@ -9,6 +9,15 @@
       "comparison": "included",
       "timeout": 10,
       "points": null
-    }
-  ]
+    },
+    {
+      "name": "Maya 12",
+      "setup": "",
+      "run": "python3 src/my_code.py",
+      "input": "Maya\r\n12",
+      "output": "\r\nName: Grade: Hello Maya\r! I can't wait to be in 12th grade too!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
 }
