@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Anna 10",
+      "setup": "",
+      "run": "python3 src/my_code.py",
+      "input": "Anna\r\n10",
+      "output": "\r\nName: Grade: Hello Anna\r! I can't wait to be in 10th grade too!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
